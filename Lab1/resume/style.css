@@ -1,0 +1,42 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif; 
+}
+
+hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.header{
+    background: white  ;
+    color:#333333  ;
+    padding: 5px 10px;  
+    text-align: center;
+    border-bottom: 2px;
+    line-height: 40%;
+} 
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    border: 2px solid lightgray;
+    
+}
+
+.about_me,.edu {
+    margin-bottom: 10mm;
+}
+
+.date, .cgpa, .certificate{
+    float:right;
+    font-style: italic;
+}
+
