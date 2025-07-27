@@ -1,13 +1,19 @@
+/*CSS file for my resume*/
 body{
     font-family: 'Trebuchet MS', sans-serif; 
 }
 
+/* Horizontal rule styling for section dividers */
 hr{
     margin-top: 0px;
     margin-bottom: 0px;
     height: 2px;
     border: none;
     background-color: black;
+}
+
+h2{
+    margin-bottom: 0px;
 }
 
 li{
@@ -23,6 +29,7 @@ li{
     line-height: 40%;
 } 
 
+/* Main container for the entire resume */
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -35,7 +42,13 @@ li{
     margin-bottom: 10mm;
 }
 
-.date, .cgpa, .certificate{
+/* Right-aligned date and CGPA information */
+.date, .cgpa{
+    float:right;
+    font-style: italic;
+}
+
+.certificate{
     float:right;
     font-style: italic;
 }
