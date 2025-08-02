@@ -1,0 +1,54 @@
+<!--This is a weather dashboard web app made using HTML, CSS and JavaScript-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="icon" type="image/x-icon" href="assets\cloudy.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--Container which contains all the details-->
+        <div class="container">
+            <div class="header">
+                <h1>Weather Dashboard</h1>
+            </div>
+
+            <!--Search bar-->
+            <div class="search">
+                <input type="text" id="cityInput" placeholder="Enter city"/>
+                <button id="searchButton" onclick="searchWeather()"><img src="assets\search-interface-symbol.png" alt="search"></button>
+            </div>
+            <br>
+
+            <!--Weather Details-->
+            <div class="card">
+                <img alt="descPic">
+                <h2 id="temp"></h2> 
+                <h4 id="weatherDesc"></h4>
+                <h3 id="cityName"></h3>
+                <div class="details">
+                    <!--Humidity details-->
+                    <div class="detail">
+                        <img src="assets/humidity.png" alt="humidity">
+                        <div class="detail-content">
+                            <p>Humidity:</p> 
+                            <p class="humidity"></p> 
+                        </div>
+                    </div>
+
+                    <!--Wind Speed details-->
+                    <div class="detail">
+                        <img src="assets/wind.png" alt="wind">
+                        <div class="detail-content">
+                            <p>Wind Speed:</p>
+                            <p class="wind"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
