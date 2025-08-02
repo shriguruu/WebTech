@@ -9,4 +9,5 @@ A beautiful, responsive weather application that provides real-time weather info
 - **JavaScript** 
 - **WeatherAPI**
 
-- [Website](https://gshriguruu-weather.netlify.app/)
+## Website 
+[Click here](https://gshriguruu-weather.netlify.app/)
