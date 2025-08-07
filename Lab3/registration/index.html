@@ -1,0 +1,63 @@
+<!--This is a website that enables users to enter details in a registration form-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <form id="regForm">
+                <h2>Registration Form</h2>
+
+                <!--Text input to enter name-->
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <span class="error" id="nameError"></span><br>
+                </div>
+
+                <!--Text input to enter email id-->
+                <div class="form-group">
+                    <label for="email">E-Mail ID:</label>
+                    <input type="text" id="email" name="email"><br>
+                    <span class="error" id="emailError"></span><br>
+                </div>
+
+                <!--Text input to enter phone no.-->
+                <div class="form-group">
+                    <label for="phone">Phone no.:</label>
+                    <input type="text" id="phone" name="phone"><br>
+                    <span class="error" id="phoneError"></span><br>
+                </div>
+
+                <!--Text input to enter age-->
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age"><br>
+                    <span class="error" id="ageError"></span><br>
+                </div>
+
+                <!--Drop down menu to select gender-->
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender">
+                        <option>---Select---</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                    <span class="error" id="genderError"></span><br>
+                </div>
+
+                <!--Submit button-->
+                <br>
+                <div class="submit">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

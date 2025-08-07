@@ -1,0 +1,68 @@
+/*CSS file for the styling of registartion form*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Styling for the container div which encloses all the fields */
+.container{
+    width: 400px;
+    padding: 50px;
+    border: 2px solid lightgrey;
+    border-radius: 5mm;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+/* Styling for the input text area */
+input, select, textarea{
+    margin-bottom: 0px;
+    margin-top:3px;
+    width: 100%;
+    box-sizing: border-box;
+    padding:3px;
+    border-radius: 5px;
+}
+
+/* Styling for the submit button */
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-family: "Work Sans", sans-serif;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;           
+    margin-top: 20px;
+}
+
+/* Make the submit button become darker on hovering on it */
+button:hover {
+  background-color: #218838; 
+}
+
+/* Styling for the error messages */
+.error {
+  color: red;
+  font-size: 0.9em;
+}
