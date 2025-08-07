@@ -33,12 +33,3 @@ The project consists of three main files:
 3. Open the index.html file in your web browser.
 
 4. Fill out the form fields and click the "Submit" button to see the validation in action.
-
-Validation Details
-Name, Age, Gender: These fields must not be empty.
-
-Email: Must be in a valid email format (e.g., example@domain.com).
-
-Phone Number: Must be exactly 10 digits long.
-
-Age: Must be a number and, according to the current script, must be 18 or younger.
