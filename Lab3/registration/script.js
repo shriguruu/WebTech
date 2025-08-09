@@ -48,7 +48,7 @@ document.getElementById('regForm').addEventListener('submit', function(e)
             document.getElementById('ageError').textContent = 'Age is required';
             isValid = false;
         }
-        else if(age>18)
+        else if(age<18)
         {
             document.getElementById('ageError').textContent = 'Invalid Age';
             isValid = false;
