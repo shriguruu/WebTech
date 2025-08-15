@@ -1,14 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import AnimalCard from'./AnimalCard.jsx'
+import {animalData} from './data/animal.js' 
 
-const animalData = [
-  {id:1, name:'Lion', species: 'Panthera Leo', weight:'140kg', diet:'meat'},
-  {id:2, name:'Gorilla', species: 'Gorilla beringei', weight:'205kg', diet:'plants'},
-  {id:3, name:'Zebra', species: 'Equus quagga', weight:'322kg', diet:'plants'}
-];
 
 
 function App()

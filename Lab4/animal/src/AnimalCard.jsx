@@ -3,7 +3,7 @@ import './App.css'
 function AnimalCard({animal})
 {
     return(
-        <div className='animal-data'>
+        <div className='animal-card'>
             <h2>{animal.name}</h2>
             <p>{animal.species}</p>
             <p>{animal.weight}</p>
