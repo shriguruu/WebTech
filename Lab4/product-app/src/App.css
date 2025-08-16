@@ -1,4 +1,5 @@
-/* General App Container */
+/* Styling for the Product App */
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif;
@@ -6,9 +7,13 @@ body {
   background-color: #f8f9fa;
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
+/* Styling for the App container */
 .container {
+  
   width: 300px;
   color: #343a40;
   border: 1px solid #dee2e6;
@@ -17,11 +22,12 @@ body {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .container h2{
 text-align: center;
 }
 
-/* --- Search Bar --- */
+/* Styling for the Search Bar */
 form {
   margin-bottom: 20px;
 }
@@ -42,7 +48,7 @@ form p {
   font-size: 0.9em;
 }
 
-/* --- Product Table --- */
+/* Styling for the Product Table --- */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -63,5 +69,5 @@ thead th {
 tbody th {
   font-weight: bold;
   text-align: center;
-  padding-top: 15px; /* Adds space above each category */
+  padding-top: 15px; 
 }
