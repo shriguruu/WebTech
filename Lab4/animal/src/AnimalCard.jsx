@@ -1,3 +1,4 @@
+// Animal Card component
 import './App.css'
 
 function AnimalCard({animal})

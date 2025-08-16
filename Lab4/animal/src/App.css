@@ -1,3 +1,5 @@
+/* Styling for the Animal App */
+
 body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f7f6; 
@@ -8,7 +10,6 @@ body{
 .app-container{
   padding: 40px;
   border: 2px solid lightgrey;
-  
 }
 
 .app-container h1{
@@ -26,7 +27,7 @@ body{
   flex-wrap: wrap;
 }
 
-/* --- Animal Card Specific Styles --- */
+/* Styling for the animal card */
 .animal-card { 
   background-color: white;
   border: 1px solid #e1e1e1;
@@ -39,8 +40,8 @@ body{
 }
 
 .animal-card:hover {
-  transform: translateY(-5px); /* Lifts the card on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12); /* A more pronounced shadow on hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12); 
 }
 
 .animal-card h2 {

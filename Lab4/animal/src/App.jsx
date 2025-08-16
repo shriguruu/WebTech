@@ -1,3 +1,4 @@
+// This is a simple React web application which displays some animal data
 import './App.css'
 import AnimalCard from'./AnimalCard.jsx'
 import {animalData} from './data/animal.js' 
