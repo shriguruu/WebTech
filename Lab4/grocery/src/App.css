@@ -1,0 +1,63 @@
+/* Styling for the Grocery App */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #222; 
+}
+
+/* Main application container */
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling for the  title */
+.app-container h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+/* Flex container to hold the two lists side-by-side */
+.lists-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the two lists */
+  flex-wrap: wrap; /* Allows lists to stack on smaller screens */
+}
+
+/* Styling for a single list */
+.list-container {
+  width: 250px;
+  border: 3px solid #00d8ff; 
+  background-color: #fff; 
+  border-radius: 5px;
+  overflow: hidden; 
+}
+
+
+.list-header {
+  background-color: #00d8ff;
+  color: black;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 3px solid #00d8ff;
+}
+
+
+.items {
+  padding: 10px 20px;
+  color: #333;
+  text-align: left;
+}
+
+
+.items p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+  font-family: 'Times New Roman', monospace; /* Monospace for alignment */
+}
