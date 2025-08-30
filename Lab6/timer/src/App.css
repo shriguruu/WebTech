@@ -1,0 +1,200 @@
+/* Styling for the Countdown Timer App */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+/* App Layout */
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.timer-container {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+/* Timer Display */
+.timer-display {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 15px;
+    border: 3px solid #e9ecef;
+    position: relative;
+}
+
+.timer-display.running {
+    border-color: #28a745;
+    background: #d4edda;
+}
+
+.timer-display.completed {
+    border-color: #dc3545;
+    background: #f8d7da;
+}
+
+.time-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    font-family: monospace;
+    line-height: 1;
+}
+
+.time-label {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+.separator {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #666;
+    line-height: 3rem;
+}
+
+.completed-msg {
+    position: absolute;
+    bottom: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #dc3545;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    animation: fadeIn 0.5s ease-in;
+}
+
+
+/* Time Setter */
+.time-setter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.input-group input {
+    width: 4rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.input-group input:disabled {
+    background: #f8f9fa;
+    color: #999;
+    cursor: not-allowed;
+}
+
+/* Buttons */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.start-btn {
+    background: #28a745;
+    color: white;
+}
+
+.start-btn:hover:not(:disabled) {
+    background: #218838;
+}
+
+.pause-btn {
+    background: #ffc107;
+    color: #212529;
+}
+
+.pause-btn:hover {
+    background: #e0a800;
+}
+
+.reset-btn {
+    background: #6c757d;
+    color: white;
+}
+
+.reset-btn:hover:not(:disabled) {
+    background: #545b62;
+}
+
+.btn:disabled {
+    background: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+}
+
+
+
