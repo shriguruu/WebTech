@@ -1,10 +1,12 @@
+// Main App Component for the Timer App
+
 import React, { useState, useEffect } from 'react';
 import TimerDisplay from './components/TimerDisplay';
 import TimeSetter from './components/TimeSetter';
 import ControlButtons from './components/ControlButtons';
 import './App.css';
 
-// Main App Component: Manages state and orchestrates child components.
+
 export default function App() {
     const [time, setTime] = useState({ hours: 0, minutes: 1, seconds: 30 });
     const [timeLeft, setTimeLeft] = useState(0);
