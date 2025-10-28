@@ -19,12 +19,12 @@ const serveFile = (res, filePath, fallbackMessage, contentType) => {
 
 // Handler for the home page
 const serveHomePage = (res) => {
-    serveFile(res, 'index.html', 'Home Page', 'text/html');
+    serveFile(res, 'pages/index.html', 'Home Page', 'text/html');
 };
 
 // Handler for the about page
 const serveAboutPage = (res) => {
-    serveFile(res, 'about.html', 'About Page', 'text/html');
+    serveFile(res, 'pages/about.html', 'About Page', 'text/html');
 };
 
 // Handler for the CSS
